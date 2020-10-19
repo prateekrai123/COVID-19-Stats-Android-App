@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#FFFFFF"
+    android:layout_height="wrap_content">
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="348dp"
+        android:layout_height="390dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="20dp"
+        app:cardCornerRadius="20dp"
+        android:background="#FFFFFF"
+        android:theme="@style/Theme.MaterialComponents.Light">
+
+        <ImageView
+            android:id="@+id/imgFlag"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentEnd="true"
+            android:layout_gravity="end"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp" />
+
+        <TextView
+            android:id="@+id/txt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Country"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txt2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="130dp"
+            android:text="Confirmed"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txt4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginTop="130dp"
+            android:layout_marginEnd="10dp"
+            android:text="Deceased"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txt6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="270dp"
+            android:layout_marginEnd="10dp"
+            android:text="Recovered"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txt7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt6"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="270dp"
+            android:text="Active"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/etCountry"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="50dp"
+            android:layout_toEndOf="@id/txt1"
+            android:text="India"
+            android:textAllCaps="true"
+            android:textColor="#6200EA"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/etTotalConf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="170dp"
+            android:text="235872"
+            android:textColor="#FF0000"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/etNewConf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="210dp"
+            android:textColor="#FF0000"
+            android:text="3453"
+            android:textStyle="bold"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:id="@+id/etTotalDeaths"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginEnd="10dp"
+            android:textStyle="bold"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="170dp"
+            android:text="873273"
+            android:textColor="#FF0000"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/etNewDeaths"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginEnd="10dp"
+            android:textStyle="bold"
+            android:layout_marginStart="10dp"
+            android:text="3374"
+            android:layout_marginTop="210dp"
+            android:textColor="#FF0000"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/etTotalRec"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="310dp"
+            android:text="245234"
+            android:layout_gravity="end"
+            android:layout_marginEnd="10dp"
+            android:textColor="#00FF00"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/etNewRec"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="350dp"
+            android:text="245234"
+            android:layout_gravity="end"
+            android:layout_marginEnd="10dp"
+            android:textStyle="bold"
+            android:textColor="#00FF00"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/etActive"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="310dp"
+            android:text="235872"
+            android:textColor="#FF0000"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/etNewActive"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="350dp"
+            android:textColor="#FF0000"
+            android:textStyle="bold"
+            android:text="3453"
+            android:textSize="14sp"/>
+
+    </com.google.android.material.card.MaterialCardView>
+
+</RelativeLayout>
